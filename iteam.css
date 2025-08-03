@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  animation: bgChange 12s infinite;
+  background-size: cover;
+  background-position: center;
+  background-image: url('im5.avif');
+   background-repeat: no-repeat;
+min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  
+}
+
+.button-container button {
+  width: 200px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #8B5A2B;
+  color: white;
+  border: solid;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button-container button:hover {
+  background-color: green;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+/* Footer with exit button */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+  text-align: right;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+

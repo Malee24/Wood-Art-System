@@ -1,0 +1,78 @@
+ 
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color:white; /* Light wood-inspired background */
+    }
+    
+    header {
+        background-color: #deb887; /* Wood-like brown */
+        color: whitesmoke;
+        text-align: center;
+        padding: 2px;
+    }
+
+    button {
+  background-color:#5e3b1a ; /* Green */
+  color: white;              /* Text color */
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+    .hero {
+    animation: bgChange 12s infinite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px; /* or whatever height you want */
+}
+
+
+    @keyframes bgChange {
+  0%   {background-image: url('im5.avif');}
+  33%  {background-image: url('im5.jpg');}
+  66%  {background-image: url('im6.avif');}
+  100% {background-image: url('im7.avif');}
+}
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    
+    nav ul li a {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    
+    .hero {
+        text-align: center;
+        padding: 50px;
+        background-color: #deb887; /* Wood-like shade */
+    }
+    
+    .hero h2 {
+        color: white;
+    }
+    
+    
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #deb887;
+        color: white;
+    }
+    button:hover {
+        background-color: #5e3b1a;
+    }
+    
+    
+   
